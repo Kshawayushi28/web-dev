@@ -1,0 +1,50 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar{
+    background-color: rgb(106, 104, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.text{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    align-items: center;
+}
+
+.btn button{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.logo img{
+    height: 65px;
+    background-size: cover;
+    border-radius: 50%;
+}
